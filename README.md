@@ -2,7 +2,7 @@
 Group 40 Capstone project for SideHustle internship
 
 Clone the project to your local to begin working on it
-# pease endeavour to create a new branch while making changes and push ypur code to that branch then make a pull request to the master branch. Your code will be reviewed and added to master if it has no bugs
+# pease endeavour to create a new branch while making changes and push your code to that branch then make a pull request to the master branch. Your code will be reviewed and added to master if it has no bugs
 
 Check Issues section to see todos that you can work on and indicate that you want to implement that issue.
 
