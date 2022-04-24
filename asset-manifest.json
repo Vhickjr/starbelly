@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/starbelly/static/css/main.ca1da4cf.css",
+    "main.js": "/starbelly/static/js/main.850ef446.js",
+    "index.html": "/starbelly/index.html",
+    "main.ca1da4cf.css.map": "/starbelly/static/css/main.ca1da4cf.css.map",
+    "main.850ef446.js.map": "/starbelly/static/js/main.850ef446.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca1da4cf.css",
+    "static/js/main.850ef446.js"
+  ]
+}
