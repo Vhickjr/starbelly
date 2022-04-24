@@ -1,13 +1,42 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {
+  HashRouter as Router,
+  Routes,
+  Route,
+  Link
+} from 'react-router-dom'
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <h1> App page</h1>
-      <p>Still updating the site</p>
+    <Router>
+      <div className="App">
+        <ul>
+          <li>
+            <Link to="/"> Home </Link>
+          </li>
+          <li>
+            <Link to="/about"> About Us </Link>
+          </li>
+          <li>
+            <Link to="/contact"> Contact Us</Link>
+          </li>
+        </ul>
+      </div>
 
-    </div>
+      <Routes>
+        <Route exact path='/' element={<Home />}>  </Route>
+        <Route exact path='/about' element={< About />}>   </Route>
+        <Route exact path='/contact' element={< Contact />}>  </Route>
+
+      </Routes>
+    </Router>
+
   );
 }
 
