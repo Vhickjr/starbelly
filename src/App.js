@@ -9,7 +9,7 @@ import {
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Contact from './components/pages/Contact';
-
+import Products from './components/pages/Products'
 
 
 function App() {
@@ -26,6 +26,9 @@ function App() {
           <li>
             <Link to="/contact"> Contact Us</Link>
           </li>
+          <li>
+            <Link to="/products"> Products </Link>
+          </li>
         </ul>
       </div>
 
@@ -33,7 +36,7 @@ function App() {
         <Route exact path='/' element={<Home />}>  </Route>
         <Route exact path='/about' element={< About />}>   </Route>
         <Route exact path='/contact' element={< Contact />}>  </Route>
-
+        <Route exact path='/ Products' element={< Products />}>  </Route>
       </Routes>
     </Router>
 
