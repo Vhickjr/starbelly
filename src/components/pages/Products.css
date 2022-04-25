@@ -1,0 +1,185 @@
+.product {
+ background-image: url(nashv.jpg);
+ background-repeat: round;
+ background-color: grey;
+ padding: 50px;
+ margin: auto;
+
+}
+
+h1 {
+ text-align: center;
+ color: rgb(255, 255, 255);
+ font-size: 4em;
+ font-weight: bold;
+ margin-top: 2em;
+ 
+
+
+}
+
+.product p {
+ font-size: 1.5em;
+ text-align: center;
+ justify-content: center;
+ color: white;
+ margin-bottom: 1em;
+ padding: 3em;
+ background-color: #8346293d;
+}
+
+.one,
+.two,
+.three,
+.fud {
+ padding: 20px;
+ outline: 5px solid white;
+ outline-offset: -20px;
+ margin-bottom: -4em;
+ height: 300px;
+ width: 250px;
+
+}
+.next {
+height: 305px;
+width: 675px;
+ margin: auto;
+ 
+}
+.next2 {
+ height: 700px;
+ width: 675px;
+ margin: auto;
+
+}
+.next1 {
+ height: 1000px;
+ width: 800px;
+ margin: auto;
+ margin-right: 5px;
+ margin-left: 2px;
+ 
+}
+.coc {
+ display: flex;
+ margin-top: -5px;
+}
+.coc .side {
+ margin: auto;
+ margin-top: 10px;
+
+}
+
+.product .img span {
+ display: block;
+}
+
+.product .img,
+h5 p {
+ text-align: center;
+}
+
+.img {
+ display: flex;
+ margin: 10px;
+ padding: 20px;
+ box-sizing: border-box;
+ 
+}
+.button {
+ margin-top: -10em;
+ margin-bottom: 2em;
+ padding: 1em;
+ color: #da2b30;
+font-size: 1em;
+font-weight: bold;
+cursor: pointer;
+font-family:cursive;
+}
+
+.product .img .left {
+
+
+ background-color: #da2b30;
+
+}
+
+.product .img .mid {
+
+
+ background-color: #447017;
+}
+
+.product .img .num {
+
+
+ background-color: #834629;
+}
+
+.product .img .right {
+
+
+ background-color: #0354ad;
+}
+
+.product .img .left h5 {
+
+ color: rgb(0, 0, 0);
+ margin-bottom: -2.5em;
+}
+
+.product .img .mid h5 {
+
+ color: rgb(0, 0, 0);
+ margin-bottom: -2.5em;
+}
+
+.product .img .num h5 {
+
+ color: rgb(0, 0, 0);
+ margin-bottom: -2.5em;
+}
+
+.product .img .right h5 {
+
+ color: rgb(0, 0, 0);
+ margin-bottom: -2.5em;
+}
+
+.product .img p {
+ color: white;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 1.2em;
+ padding: auto;
+}
+
+.product .img p span {
+ color: black;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: bold;
+ font-size: 2em;
+}
+
+.product .img h5 {
+ font-size: 2em;
+}
+
+.product .img .left {
+ padding: 0px;
+ margin: auto;
+}
+
+.product .img .mid {
+ padding: 0px;
+ margin: auto;
+}
+
+.product .img .right {
+ padding: 0px;
+ margin: auto;
+}
+
+.product .img .num {
+ padding: 0px;
+ margin: auto;
+}
