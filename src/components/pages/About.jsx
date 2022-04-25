@@ -5,7 +5,10 @@ import React from 'react'
 function About() {
     return <div>
         <>
-            <h2>About Us !</h2>
+                <br></br>
+                 <br></br>
+                  <br></br>
+            <h2 >About Us !</h2>
             <h3 style={{ textAlign: "center" }}>
                 Welcome To <span id="W_Name1">starbelly</span>
             </h3>

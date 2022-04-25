@@ -1,45 +1,40 @@
 
 import './App.css';
 import {
-  HashRouter as Router,
+  BrowserRouter,
   Routes,
   Route,
-  Link
-} from 'react-router-dom'
-import Home from './components/pages/Home';
+} from "react-router-dom";
+import Products from './components/pages/Products';
+import Navbar from './components/Navbar/Navbar';
 import About from './components/pages/About';
+import Footer from './components/Footer/Footer';
 import Contact from './components/pages/Contact';
-import Products from './components/pages/Products'
+import Home from './components/pages/Home';
+
+
+
 
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <ul>
-          <li>
-            <Link to="/"> Home </Link>
-          </li>
-          <li>
-            <Link to="/about"> About Us </Link>
-          </li>
-          <li>
-            <Link to="/contact"> Contact Us</Link>
-          </li>
-          <li>
-            <Link to="/products"> Products </Link>
-          </li>
-        </ul>
-      </div>
+    <div>
+      <BrowserRouter>
+            <Navbar/>
+            
+            <Routes>
+              
+              <Route path="/" element={<Home />}/>
+               <Route path="Products/" element={<Products />}/>
+               <Route path="About/" element={<About />}/> 
+                <Route path="Contact/" element={<Contact />}/>
+                 
 
-      <Routes>
-        <Route exact path='/' element={<Home />}>  </Route>
-        <Route exact path='/about' element={< About />}>   </Route>
-        <Route exact path='/contact' element={< Contact />}>  </Route>
-        <Route exact path='/ Products' element={< Products />}>  </Route>
-      </Routes>
-    </Router>
-
+            </Routes>
+             <Footer />
+      </BrowserRouter>
+      
+    </div>
   );
 }
 
