@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/starbelly/static/css/main.ca1da4cf.css",
-    "main.js": "/starbelly/static/js/main.850ef446.js",
+    "main.css": "/starbelly/static/css/main.97f03a5c.css",
+    "main.js": "/starbelly/static/js/main.025549e9.js",
+    "static/media/denver.jpg": "/starbelly/static/media/denver.42a02b0fb69644754349.jpg",
+    "static/media/image.png": "/starbelly/static/media/image.4a14687ead0c686f992d.png",
+    "static/media/chick.jpg": "/starbelly/static/media/chick.8a6852e63701295940de.jpg",
+    "static/media/nashv.jpg": "/starbelly/static/media/nashv.a40dcd22eaefe522c7a1.jpg",
+    "static/media/rice1.jpg": "/starbelly/static/media/rice1.ecfa83602930755d787b.jpg",
+    "static/media/logostarbelly.jpeg": "/starbelly/static/media/logostarbelly.0c2fb6b7aaa832360789.jpeg",
+    "static/media/event.jpg": "/starbelly/static/media/event.7105d9e272fb12dff28d.jpg",
+    "static/media/fud.jpg": "/starbelly/static/media/fud.50a527a211dccf012a9f.jpg",
+    "static/media/drink.jpg": "/starbelly/static/media/drink.ce1d3bff9afe4eb37701.jpg",
     "index.html": "/starbelly/index.html",
-    "main.ca1da4cf.css.map": "/starbelly/static/css/main.ca1da4cf.css.map",
-    "main.850ef446.js.map": "/starbelly/static/js/main.850ef446.js.map"
+    "main.97f03a5c.css.map": "/starbelly/static/css/main.97f03a5c.css.map",
+    "main.025549e9.js.map": "/starbelly/static/js/main.025549e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca1da4cf.css",
-    "static/js/main.850ef446.js"
+    "static/css/main.97f03a5c.css",
+    "static/js/main.025549e9.js"
   ]
 }
