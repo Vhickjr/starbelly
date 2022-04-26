@@ -7,7 +7,7 @@ import logostarbelly from './logostarbelly.jpeg'
 function Navbar() {
   return (
     
-        <div className='Navbar'>
+        <div id='navtop' className='Navbar'>
          <div className='name'>
           
           <img src={logostarbelly} className="loog" height="40px" alt="" />

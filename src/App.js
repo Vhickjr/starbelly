@@ -8,7 +8,7 @@ import {
 import Products from './components/pages/Products';
 import Navbar from './components/Navbar/Navbar';
 import About from './components/pages/About';
-import Footer from './components/Footer/Footer';
+import Footerpage from './components/footerpage/Footerpage';
 import Contact from './components/pages/Contact';
 import Home from './components/pages/Home';
 
@@ -31,7 +31,7 @@ function App() {
 
 
         </Routes>
-        <Footer />
+        <Footerpage />
       </HashRouter>
 
     </div>
