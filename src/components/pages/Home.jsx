@@ -1,11 +1,14 @@
 import React from 'react'
+import './Home.css'
 
 function Home() {
   return (
     <div>
         <br></br>
-   
-        <h1> Welcome to the world of Gurus!</h1>
+        <div className="main-container">
+          <h1>Discover the New Way to Love Food</h1>
+          <p>Best Service, Best Food & best Atmosphere!</p>
+        </div>
     </div>
   )
 }
