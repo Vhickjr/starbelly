@@ -4,6 +4,7 @@
  background-color: grey;
  padding: 50px;
  margin: auto;
+ margin-bottom: -1em;
 
 }
 
@@ -41,32 +42,35 @@ h1 {
 
 }
 .next {
-height: 305px;
-width: 675px;
+height: 19em;
+width: 31.25em;
  margin: auto;
+ margin-top: -.5em;
  
 }
 .next2 {
- height: 700px;
- width: 675px;
+ height: 42.8em;
+ width: 31.25em;
  margin: auto;
 
 }
-.next1 {
- height: 1000px;
- width: 800px;
+.coc .next1 {
+ height: 61.5em;
+ width: 125em;
  margin: auto;
  margin-right: 5px;
- margin-left: 2px;
+ margin-left: .4em;
  
 }
 .coc {
  display: flex;
  margin-top: -5px;
+ margin-bottom: -.2em;
+ margin-left: -.5em;
+ margin-top: 1em;
 }
 .coc .side {
- margin: auto;
- margin-top: 10px;
+ margin-left: -.3em;
 
 }
 
