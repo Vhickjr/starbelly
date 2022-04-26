@@ -1,7 +1,7 @@
 
 import './App.css';
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -19,21 +19,21 @@ import Home from './components/pages/Home';
 function App() {
   return (
     <div>
-      <BrowserRouter>
-            <Navbar/>
-            
-            <Routes>
-              
-              <Route path="/" element={<Home />}/>
-               <Route path="Products/" element={<Products />}/>
-               <Route path="About/" element={<About />}/> 
-                <Route path="Contact/" element={<Contact />}/>
-                 
+      <HashRouter>
+        <Navbar />
 
-            </Routes>
-             <Footer />
-      </BrowserRouter>
-      
+        <Routes>
+
+          <Route path="/" element={<Home />} />
+          <Route path="Products/" element={<Products />} />
+          <Route path="About/" element={<About />} />
+          <Route path="Contact/" element={<Contact />} />
+
+
+        </Routes>
+        <Footer />
+      </HashRouter>
+
     </div>
   );
 }
