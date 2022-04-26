@@ -1,6 +1,6 @@
 .main-container{
     background-color: gray;
-    background-image: url("/src/assets/images/backdrop.jpg");
+    background-image: url("backdrop.jpg");
     background-size: cover;
     padding: 50px;
     margin: auto;
