@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/starbelly/static/css/main.a535293a.css",
-    "main.js": "/starbelly/static/js/main.991384ce.js",
+    "main.css": "/starbelly/static/css/main.0e6400a1.css",
+    "main.js": "/starbelly/static/js/main.e5b375a1.js",
     "static/media/denver.jpg": "/starbelly/static/media/denver.42a02b0fb69644754349.jpg",
     "static/media/image.png": "/starbelly/static/media/image.4a14687ead0c686f992d.png",
     "static/media/chick.jpg": "/starbelly/static/media/chick.8a6852e63701295940de.jpg",
@@ -12,11 +12,11 @@
     "static/media/fud.jpg": "/starbelly/static/media/fud.50a527a211dccf012a9f.jpg",
     "static/media/drink.jpg": "/starbelly/static/media/drink.ce1d3bff9afe4eb37701.jpg",
     "index.html": "/starbelly/index.html",
-    "main.a535293a.css.map": "/starbelly/static/css/main.a535293a.css.map",
-    "main.991384ce.js.map": "/starbelly/static/js/main.991384ce.js.map"
+    "main.0e6400a1.css.map": "/starbelly/static/css/main.0e6400a1.css.map",
+    "main.e5b375a1.js.map": "/starbelly/static/js/main.e5b375a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.a535293a.css",
-    "static/js/main.991384ce.js"
+    "static/css/main.0e6400a1.css",
+    "static/js/main.e5b375a1.js"
   ]
 }
